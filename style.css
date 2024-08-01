@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=IM+Fell+Double+Pica:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tangerine:wght@400;700&display=swap');       
+ 
+
+body {
+    margin: 0;
+    background: linear-gradient(to right, #9370DB, #E0FFFF);
+    font-family: sans-serif;
+}
+
+header {
+    padding: 0px;
+    text-align: left;
+    margin-bottom: 0px;
+    color: black;
+    background: linear-gradient(to left, #9370DB, #E0FFFF );
+}
+
+
+h1 {
+    margin: 0;
+    font-weight: 5000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 500px;
+    margin: 40px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    font-family: "IM Fell Double Pica", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.nim {
+    background-color: #9370DB;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #9370DB;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    font-size: 2em;
+    color: #9370DB;
+}
+
+
+
+
+
